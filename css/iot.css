@@ -1,0 +1,893 @@
+#main {
+    position: relative;
+}
+
+/*首页公共部分会有一个背景图*/
+#main .banner {
+    height: 58vw;
+    background: url("../images/iot/iot_back.jpg") no-repeat;
+}
+/*banner middle开始*/
+#main .banner .middle {
+    position: relative;
+    height: 32vw;
+    /*margin: 4vw auto;*/
+}
+
+#main .middle .imgWrapper {
+    height: 100%;
+}
+#main .middle .imgWrapper img {
+    height: 100%;
+}
+#main .middle .title {
+    position: absolute;
+    top: 9vw;
+    left: 50%;
+    margin-top: 0;
+    transform: translate(-50%);
+}
+#main .middle .title p:first-child {
+    font-size: 38px;
+    color: #ffffff;
+}
+#main .middle .title .aim {
+    margin-top: 1.4vw;
+    font-size: 19px;
+    color: #ffffff;
+    text-align: center;
+}
+#main .middle .title .btn {
+    margin-top: 4vw;
+}
+#main .middle .title .btn > div {
+    width: 6.8vw;
+    height: 2vw;
+    text-align: center;
+    line-height: 2vw;
+    box-sizing: content-box;
+}
+#main .middle .title .btn > div a {
+    color: #ffffff;
+    font-size: 14px;
+    display: block;
+    height: 100%;
+    box-sizing: content-box;
+}
+#main .middle .title .btn > div .onlineAsk {
+    border: 1px solid #ffffff;
+}
+#main .middle .title .btn > div .onlineAsk:hover {
+    color: rgb(28, 144, 246);
+    background: #ffffff;
+}
+
+/*#main .middle .title .btn > div:first-child {*/
+    /*border: none;*/
+    /*background: rgb(5, 112, 207);*/
+    /*margin-right: 3vw;*/
+    /*color: #ffffff;*/
+/*}*/
+
+
+
+/*banner bottom开始*/
+#main .banner .bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.03);
+}
+#main .bottom div {
+    width: 18vw;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);;
+    padding: 0 4vw 0 2.6vw;
+}
+#main .bottom div:first-child {
+    margin-left: 18%;
+}
+#main .bottom div:last-child {
+    border-right: none;
+}
+#main .bottom div p:first-child {
+    color: #ffffff;
+    margin-top: 1vw;
+    font-size: 16px;
+}
+#main .bottom div p:last-child {
+    color: rgb(97, 97, 97);
+    margin-top: 0.5vw;
+    font-size: 14px;
+    line-height: 24px;
+}
+#main .bottom > div:hover {
+    background: rgba(27, 29, 63, 0.3);
+}
+
+/*banner结束*/
+
+/*partition开始*/
+#main .partition {
+
+}
+#main  .title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 3vw ;
+    text-align: center;
+}
+
+
+/*partition part1开始*/
+#main .part1 {
+    width: 100%;
+    /*height: 44vw;*/
+    background: rgba(240, 240, 240, 1);;
+    border-top: 1px solid #ffffff; /*清除外边距合并*/
+}
+
+#main .part1 .bg {
+    width: 70%;
+    height: 70%;
+    margin: 3.9vw auto 0;
+    background: url("../images/iot/part_back.png");
+    background-size: 100% 100%;
+}
+#main .part1 .bg > div {
+    margin-top: 4vw;
+}
+#main .part1 .bg > div > div {
+    width: 13vw;
+    margin-right: 5vw;
+    padding: 4vw 0;
+}
+.divHover1 {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#main .part1 .bg > div > div > img {
+    width: 100%;
+}
+#main .part1 .bg .title1 {
+    width: 100%;
+    /*font-size: 24px;*/
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1.3vw;
+}
+#main .part1 .bg .info {
+    width: 100%;
+    font-size: 1vw;
+    line-height: 2;
+    margin-top: 1.3vw;
+}
+
+
+/*partition part2开始*/
+#main .part2 {
+    width: 100%;
+}
+#main .part2 ul {
+    width: 70%;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    margin: 4.2vw auto 0;
+}
+#main .part2 ul .special {
+    border-bottom: 2px solid rgb(75, 117, 255);
+    color: rgb(75, 117, 255);
+}
+#main .part2 ul li {
+    color: #808080;
+}
+
+#main .part2 ul li {
+    float: left;
+    margin-right: 7.2vw;
+    font-size: 1vw;
+    line-height: 36px;
+}
+
+#main .part2 ul li > div {
+    width: 5vw;
+    height: 2.5vw;
+    line-height: 2.5vw;
+    text-align: center;
+    font-weight: 600;
+}
+#main .part2 .info {
+    width: 70%;;
+    height: 3.8vw;
+    margin: 1.7vw auto 0;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+}
+
+#main .part2 .imgWrapper {
+    width: 60%;
+    height: 22vw;
+    margin: 1vw auto 0;
+    background: url("../images/iot/par2_img1.png");
+}
+
+
+@keyframes scaleBG {
+    from{
+       background-size:100% 100%;
+    }
+    to{
+        background-size: 110% 110%;
+    }
+}
+@keyframes scaleSM {
+    from{
+        background-size: 110% 110%;
+    }
+    to{
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/*partition part3开始*/
+#main .part3 {
+    width: 100%;
+    /*height: 31vw;*/
+    background: rgba(240, 240, 240, 1);
+    border: 1px solid #ffffff;
+    padding-bottom: 2vw;
+
+}
+#main .part3 > div {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+#main .part3 > div > ul:first-child {
+    margin: 5vw 0 3vw 0;
+}
+#main .part3 > div > ul p {
+    margin-top: 1vw;
+}
+#main .part3 > div > ul > li {
+    width: 9.5vw;
+    font-weight: 600;
+}
+
+#main .part3 > div > ul div {
+    height: 3.6vw;
+}
+
+#main .part3 > div > ul p {
+    text-align: center;
+}
+
+
+#main .part3 > div > ul div img {
+    height: 100%;
+}
+
+
+/*partition part4开始*/
+#main .part4 {
+    width: 100%;
+    /*height: 25vw;*/
+}
+#main .part4 ul {
+    width: 70%;
+    margin: 3.5vw auto 0;
+    padding-bottom: 6vw;
+}
+#main .part4 ul li {
+    width: 10vw;
+    /*width: 25%;*/
+}
+#main .part4 ul li .title {
+    font-size: 30px;
+    margin: 1.5vw 0;
+}
+
+#main .part4 ul li .info {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    height: 3.5vw;
+    text-align: center;
+    color: #666666;
+}
+
+#main .part4 ul li > div {
+    width: 5.5vw;
+}
+
+#main .part4 ul li > div > img {
+    width: 100%;
+}
+
+/*partition part5开始*/
+#main .part5 {
+    width: 100%;
+    height: 32vw;
+    background: rgba(240, 240, 240, 1);;
+    border: 1px solid #ffffff;
+}
+#main .part5 ul:first-child {
+    margin-top: 2vw;
+}
+#main .part5 ul {
+    width: 70%;
+    margin: 1vw auto;
+}
+#main .part5 ul li {
+    width: 11vw;
+}
+#main .part5 ul li img {
+    width: 100%;
+}
+
+
+
+
+/*固定栏side开始*/
+#main .side {
+    position: fixed;
+    top: 25vw;
+    right: 1vw;
+}
+
+#main .side li {
+    width: 2.6vw;
+    margin-top: 0.6vw;
+}
+.side .contPhone {
+    position: relative;
+}
+.side .phoneShow {
+    display: none;
+    position: absolute;
+    top: 0.2vw;
+    right: 4.2vw;
+    width: 13vw;
+    height: 3vw;
+    background: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 3vw;
+    font-size: 1vw;
+    border: 1px solid #e1e8f0;
+}
+.side .phoneShow1 {
+    display: none;
+    position: absolute;
+    top: 1vw;
+    right: 3.5vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    background: #ffffff;
+    transform: rotate(45deg);
+    border-top: 1px solid #e1e8f0;
+    border-right: 1px solid #e1e8f0;
+}
+.side .ask {
+    display: none;
+    position: absolute;
+    top: 4vw;
+    right: 4.2vw;
+    width: 13vw;
+    height: 3vw;
+    background: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 3vw;
+    font-size: 1vw;
+    border: 1px solid #e1e8f0;
+}
+.side .ask1 {
+    display: none;
+    position: absolute;
+    top: 4.8vw;
+    right: 3.5vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    background: #ffffff;
+    transform: rotate(45deg);
+    border-top: 1px solid #e1e8f0;
+    border-right: 1px solid #e1e8f0;
+}
+
+.side #wxCode .code {
+    display: none;
+    position: absolute;
+    top: 4vw;
+    right: 4.2vw;
+    width: 10vw;
+    height: 10vw;
+    background: #ffffff;
+    border: 1px solid #e1e8f0;
+
+}
+.side #wxCode .code > div{
+    width: 6vw;
+    margin: 0 auto;
+}
+.side #wxCode .code p {
+    margin: 10px auto;
+    text-align: center;
+    color: rgb(28, 144, 246);
+}
+.side #wxCode .code > div img{
+    width: 100%;
+}
+
+.side #wxCode .code1 {
+    display: none;
+    position: absolute;
+    top: 7.8vw;
+    right: 3.5vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    background: #ffffff;
+    transform: rotate(45deg);
+    border-top: 1px solid #e1e8f0;
+    border-right: 1px solid #e1e8f0;
+}
+
+
+#main .side li img {
+    width: 100%;
+}
+
+
+
+#main .side #topBtn {
+    display: none;
+}
+
+
+
+
+
+/*pc端响应式*/
+
+@media (max-width: 1440px) {
+    /*#main .title {*/
+        /*font-size: 30px;*/
+    /*}*/
+    #main .bottom div p:first-child {
+        font-size: 14px;
+    }
+    #main .bottom div p:last-child {
+        font-size: 9px;
+        line-height: 20px;
+    }
+    #main .middle .title .btn > div a {
+        color: #ffffff;
+        font-size: 10px;
+    }
+    #main .part1 .bg .title1 {
+        /*font-size: 18px;*/
+    }
+    #main .part1 .bg .info {
+        /*font-size: 10px;*/
+        /*line-height: 18px;*/
+    }
+
+    #main .part2 .info {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    /*#main .part2 ul li > div {*/
+        /*font-size: 12px;*/
+    /*}*/
+    #main .part3 > div > ul p {
+        font-size: 12px;
+    }
+    #main .part4 ul li .title {
+        font-size: 20px;
+    }
+    #main .part4 ul li .info {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #main .part6 p {
+        font-size: 23px;
+    }
+    #main .part6 div a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1366px) {
+    #main .part2 ul li {
+        margin-right: 7vw;
+    }
+    #main .part2 ul li > div {
+        width: 5.4vw;
+    }
+    #main .part2 .info {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+@media (max-width: 1024px) {
+    #main .title {
+        font-size: 18px;
+    }
+    #main .bottom div p:first-child {
+        font-size: 12px;
+    }
+    #main .bottom div p:last-child {
+        font-size: 9px;
+        line-height: normal;
+    }
+    #main .middle .title p:first-child {
+        font-size: 20px;
+    }
+    #main .middle .title .aim {
+        font-size: 9px;
+    }
+    #main .part2 .info {
+        font-size: 9px;
+        line-height: 20px;
+        height: auto;
+    }
+    #main .part3 > div {
+        font-size: 9px;
+    }
+    #main .part3 > div > ul > li {
+        width: 11.5vw;
+    }
+    #main .part4 ul li .title {
+        font-size: 16px;
+    }
+    #main .part4 ul li .info {
+        font-size: 9px;
+        line-height: 13px;
+    }
+    #main .part6 p {
+        font-size: 16px;
+    }
+    #main .part6 div a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    #main .part2 ul li {
+        margin-right: 5vw;
+    }
+    #main .part2 ul li > div {
+        width: 6.4vw;
+    }
+    #main .part4 {
+        /*height: 27vw;*/
+    }
+}
+@media (max-width: 1000px) {
+    #main .part1 .bg .info {
+        line-height: 17px;
+    }
+    #main .part3 > div > ul > li p {
+        height: 3.6vw;
+    }
+    .side #wxCode .code {
+        font-size: 9px;
+    }
+
+    .side #wxCode .code p {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    #main .brand a {
+        font-size: 12px;
+    }
+}
+
+/*适配手机*/
+@media (min-width: 600px) {
+    .banner_h5 {
+        display: none;
+    }
+    .part1_h5 {
+        display: none;
+    }
+    .part2_h5 {
+        display: none;
+    }
+    .part3_h5 {
+        display: none;
+    }
+    .part4_h5 {
+        display: none;
+    }
+    .part5_h5 {
+        display: none;
+    }
+    .part6_h5 {
+        display: none;
+    }
+    .footer_h5 {
+        display: none;
+    }
+}
+@media (max-width: 600px){
+    img {
+        max-width: 100%;
+    }
+    .banner {
+        display: none;
+    }
+    .partition > ul {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .banner_h5 {
+        position: relative;
+        width: 100vw;
+        height: 140vw;
+        background-color: #051830;
+        overflow: hidden;
+    }
+    .banner_h5 .header {
+        position: fixed;
+        width: 100%;
+        height: 11vw;
+        background: #344053;
+        line-height: 11vw;
+        padding-left: 22px;
+        z-index: 99;
+    }
+    .banner_h5 .header> img{
+        width: 21vw;
+    }
+    .banner_h5 > img {
+        width: 100%;
+        height: 100%;
+    }
+    #main .banner_h5 .title_h5 {
+        width: 100%;
+        position: absolute;
+        font-size: 30px;
+        top: 50vw;
+        color: #ffffff;
+        text-align: center;
+    }
+    #main .banner_h5 .title_h5_small {
+        width: 100%;
+        position: absolute;
+        font-size: 18px;
+        top: 62vw;
+        color: #ffffff;
+        text-align: center;
+    }
+    #main .banner_h5 .online_h5 {
+        position: absolute;
+        font-size: 18px;
+        top: 74vw;
+        left: 50%;
+        margin-left: -23vw;
+        width: 46vw;
+        height: 10vw;
+        background-color: #277FD7;
+        border-radius: 15px;
+    }
+    #main .banner_h5 .online_h5 > a {
+        display: block;
+        line-height: 10vw;
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+    }
+    .partition .part1, .partition .part2, .partition .part3,
+    .partition .part4, .partition .part5, .partition .part6, .side, #footers {
+        display: none;
+    }
+    #main .partition .part1_h5 > div, #main .partition .part2_h5 > div,
+    #main .partition .part3_h5 > .title, #main .partition .part4_h5 > .title,
+    #main .partition .part5_h5 > .title, #main .partition .part6_h5 > .title{
+        font-size: 24px;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        font-weight: normal;
+    }
+    .partition .part1_h5 > ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -2%;
+    }
+    .partition .part1_h5 > ul > li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 46%;
+        padding: 3% 2%;
+        margin: 4% 2%;
+        background: url("../images/h5/part1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .partition .part1_h5 > ul > li > img {
+        width: 12vw;
+    }
+    #main .partition .part1_h5 > ul > li .title {
+        font-size: 17px;
+
+    }
+    #main .partition .part1_h5 > ul > li .desc {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #main .partition .part2_h5 ul > li {
+        border-bottom: 1px solid #f1f1f1;
+        display: flex;
+        align-items: center;
+        padding: 3% 0;
+    }
+    #main .partition .part2_h5 ul > li > div {
+        padding-left: 5%;
+    }
+    #main .partition .part2_h5 ul > li > img {
+        height: 24vw;
+    }
+    #main .partition .part2_h5 ul > li .title {
+        text-align: left;
+        font-size: 17px;
+    }
+    #main .partition .part2_h5 .desc {
+        font-size: 12px;
+    }
+
+    #main .partition .part3_h5 .panel-title-wrapper {
+        padding: 6% 0;
+        background: #ffffff;
+    }
+    #main .partition .part3_h5 .panel-title {
+        display: block;
+        height: 100%;
+    }
+    #main .partition .part3_h5 .panel-title a{
+        display: block;
+        height: 100%;
+        font-size: 17px;
+    }
+
+    #main .panel-group {
+        margin-bottom: 0;
+    }
+    #main .panel_wrapper {
+        /*margin: 0 5%;*/
+        border: none;
+        border-bottom: 1px solid #f1f1f1;
+        box-shadow: none;
+    }
+    #main .init {
+        color: #008af4;
+    }
+    #main .black {
+        color: #333333;
+    }
+
+    #main .part3_h5 .collapse_ico {
+        width: 6vw;
+        height: 6vw;
+        font-style: normal;
+        float: right;
+        background: url("../images/h5/goto.png");
+        background-repeat: no-repeat;
+        background-size: 5vw;
+    }
+
+    #main .part3_h5 .collapse_goto_down {
+        background: url("../images/h5/goto_down.png");
+        background-repeat: no-repeat;
+        background-size: 6vw;
+    }
+    #main .part4_h5 {
+        background: #ffffff;
+    }
+
+    #main .part4_h5 > div {
+        width: 100%;
+    }
+    #main .part4_h5 .part3Li {
+        width: 33.3%;
+        /*padding: 6% 5%;*/
+        padding: 6% 0;
+    }
+    #main .part4_h5 > div > ul div {
+        width: 9vw;
+        height: 9vw;
+    }
+    #main .part4_h5 > div > ul p {
+        height: 7vw;
+        margin: 0;
+        font-size: 13px;
+        text-align: center;
+        padding: 8% 0;
+    }
+    #main .part5_h5 {
+        padding-bottom: 10vw;
+    }
+    #main .part5_h5 .choose-title {
+        text-align: center;
+        border-bottom: 1px solid rgb(158,158,158);
+        /*margin: 0 5%*/
+    }
+    #main .part5_h5 .img-wrapper {
+        /*margin: 0 5%;*/
+        margin-top: 3px;
+    }
+    #main .part5_h5 .choose-desc {
+        margin: 3vw 8vw 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    #main .part5_h5 .choose-title > span {
+        display: inline-block;
+        width: 23%;
+        font-size: 17px;
+        padding: 2% 0;
+        height: 100%;
+    }
+    #main .part5_h5 .choose-title > span.blue {
+        border-bottom: 2px solid #1A89EB;
+        color: #1A89EB;
+    }
+    .part6_h5 {
+        /*margin-left: 5%;*/
+        /*margin-right: 5%;*/
+        padding-bottom: 10vw;
+    }
+    .part6_h5 .server {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .part6_h5 .server li {
+        width: 33.3%;
+        padding: 2%;
+    }
+    .part6_h5 .server li img {
+       border: 1px solid #f1f1f1;
+    }
+    #main .footer_h5 {
+        background: #252525;
+        padding: 15vw 0;
+    }
+    #main .footer_h5 .wxCode {
+        width: 34%;
+        margin: 0 auto;
+    }
+    #main .footer_h5 .wxCode-desc {
+        font-size: 14px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 3vw;
+        margin-bottom: 10vw;
+    }
+    #main .footer_h5 .contact_h5 {
+        width: 92%;
+        color: #ffffff;
+        padding: 2.5vw 0;
+        margin: 5vw auto;
+        border: 1px solid #ffffff;
+        text-align: center;
+        font-size: 13px;
+    }
+    #main .footer_h5 .contact_h5.blue {
+        background: #0088FA;
+        border: none;
+    }
+    #main .footer_h5 .copyRight {
+        color: #ffffff;
+        font-size: 10px;
+        margin: 0 18vw;
+        text-align: center;
+    }
+}
