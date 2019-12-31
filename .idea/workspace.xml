@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df4251a-7f73-4d71-afde-705ce32fcf0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/top_consult.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/download.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/iot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/iot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/h5/图片3/智慧医疗.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/h5/图片3/智慧教育.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/h5/图片3/智能安防.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/h5/图片3/智能车载.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/h5/图片3/视频会议.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/iot.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/iot.js" afterDir="false" />
-    </list>
+    <list default="true" id="6df4251a-7f73-4d71-afde-705ce32fcf0f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +67,7 @@
       <workItem from="1575884817012" duration="33547000" />
       <workItem from="1576028462538" duration="12584000" />
       <workItem from="1577756709356" duration="11989000" />
-      <workItem from="1577774756045" duration="1554000" />
+      <workItem from="1577774756045" duration="1795000" />
     </task>
     <servers />
   </component>
